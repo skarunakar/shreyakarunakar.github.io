@@ -1,0 +1,15 @@
+.search-header {
+	width: 70%;
+}
+.fa-search {
+	position: absolute;
+    padding: 13px 13px;
+}
+.search-bar {
+	width: 70%;
+	height: 32px;
+	border-radius: 2px;
+}
+.search-bar::placeholder {
+	padding-left: 10%;
+}

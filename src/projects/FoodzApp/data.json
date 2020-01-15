@@ -1,0 +1,46 @@
+var data = [
+{"name": "",
+"id": 1,
+"image":"",
+"location": "",
+"ETA": "",
+"rating": "",
+"tags": "",
+"offers": ""
+},
+{"name": "",
+"id": 2,
+"image":"",
+"location": "",
+"ETA": "",
+"rating": "",
+"tags": "",
+"offers": ""
+},
+{"name": "",
+"id": 3,
+"image":"",
+"location": "",
+"ETA": "",
+"rating": "",
+"tags": "",
+"offers": ""
+},
+{"name": "",
+"id": 4,
+"image":"",
+"location": "",
+"ETA": "",
+"rating": "",
+"tags": "",
+"offers": ""
+},{"name": "",
+"id": 5,
+"image":"",
+"location": "",
+"ETA": "",
+"rating": "",
+"tags": "",
+"offers": ""
+}
+];

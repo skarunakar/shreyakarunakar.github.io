@@ -35,10 +35,15 @@ body {
 	padding: 0;
 	margin: 10 0;
 }
-.menu li {
+.menu li a{
 	font-size: 19px;
 	margin: 0 20px 0 0;
 	cursor: pointer;
+	text-decoration: none;
+}
+.menu li a:visited {
+	text-decoration: none;
+	color: rgb(255,255,255);
 }
 .left-main {
 	margin: 55px 0 0 100px;
@@ -56,7 +61,7 @@ body {
 }
 .right {
 	width: 50%;
-	height: 780px;
+	height: 100%;
 	background-color: #b5bcc4;
 }
 .contact {
@@ -81,8 +86,44 @@ body {
 	color: rgb(0,0,0);
 }
 .author-pic {
-	max-width: 100%;
-	max-height: 100%;
+	max-width: 60%;
+	max-height: 60%;
 	margin: auto;
+	padding: 80px 0;
     display: block;
+}
+.sidebar {
+	position: fixed;
+	height: 100%;
+	width: 60%;
+	overflow-x: hidden;
+	top: 0;
+	left: 0;
+	padding: 60px;
+	transition: 2s;
+	display: none;
+	z-index: 50;
+	flex-direction: column;
+	background-color: #057280;
+}
+.sidebar .closebtn {
+	font-size: 30px;
+	color: rgb(255,255,255);
+    text-align: end;
+}
+.sidebar h5 {
+    color: #F7DC4F;
+    margin: 5px 0;
+	font-family: roboto-thin, roboto, sans-serif;	
+}
+.fa-close {
+	cursor: pointer;
+}
+.drawer-content {
+	padding: 0 30px;
+	color: #FFFF;
+	font-size: 16px;
+}
+.experience, .skills {
+
 }
