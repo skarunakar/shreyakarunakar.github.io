@@ -8,3 +8,21 @@
     i) Right click on the solution folder and then select compress.
     ii) Upload the zip and wait for the deployment link to show up.
     iii) Once the game runs correctly on the deployment link, press Submit
+
+
+## Canvas Api
+
+### Rect
+#### .fillRect() .strokeRect() .clearRect()
+
+### text
+#### .font .fillStyle .fillText() 
+#### .lineWidth .strokeStyle .strokeText()
+
+
+### Paths
+#### .beginPath() .moveTo() .lineTo() .stroke() .closePath()
+
+### Circle
+#### .beginPath() .arc() .stroke()
+

@@ -6,6 +6,7 @@ body {
     position: absolute;
     background-color: rgb(255,255,255);
 }
+
 .main {
 	display: flex;
 	color: rgb(255,255,255);
@@ -41,7 +42,7 @@ body {
 	cursor: pointer;
 	text-decoration: none;
 }
-.menu li a:visited {
+.menu li a:visited, a:link, a:visited {
 	text-decoration: none;
 	color: rgb(255,255,255);
 }
@@ -69,8 +70,7 @@ body {
 	top: 100px;
 	right: 0;
     width: 45px;
-	display: flex;
-	flex-direction: column;
+    z-index: 2;
 	background-color: #F7DC4F;
 }
 .contact ul{
@@ -99,8 +99,8 @@ body {
 	overflow-x: hidden;
 	top: 0;
 	left: 0;
-	padding: 60px;
-	transition: 2s;
+	padding: 10px;
+	transition: 5s;
 	display: none;
 	z-index: 50;
 	flex-direction: column;
@@ -122,8 +122,19 @@ body {
 .drawer-content {
 	padding: 0 30px;
 	color: #FFFF;
-	font-size: 16px;
 }
-.experience, .skills {
-
+.bio, .projects {
+	display: none;
+	cursor: pointer;
+	color: white;
+	font-size: 16px;
+	flex-direction: column;
+}
+.projects ul li {
+	color: #F7DC4F;
+	font-size: 24px;
+	padding: 10px 0;
+}
+.drawer-content > :first-child {
+   font-size: 24px;
 }
